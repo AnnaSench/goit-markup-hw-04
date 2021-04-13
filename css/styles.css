@@ -60,6 +60,7 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
   
     /* outline: 1px solid tomato; */
   }
