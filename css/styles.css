@@ -95,6 +95,10 @@
     align-items: center;
     height: 80px;
   }
+  .nav{
+    display: flex;
+    align-items: center;
+  }
   
   .site-nav {
     display: flex;
@@ -283,7 +287,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    margin-top: 30px;
+    
     margin-bottom: 10px;
   }
   
@@ -291,7 +295,11 @@
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
-    margin-bottom: 30px;
+    
+  }
+  .item-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   
@@ -301,6 +309,7 @@
   
   .social-icons {
     display: inline-flex;
+    padding-bottom: 30px;
   }
   
   .social-icons-item + .social-icons-item {
@@ -314,7 +323,7 @@
     height: 44px;
     border-radius: 50%;
     background-color: #fff;
-    margin-bottom: 30px;
+    
   }
   
   .social-icons-link .icon {
@@ -399,7 +408,7 @@
   .flexbox {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
   }
   
   .content-box {
@@ -505,19 +514,22 @@
     border: 1px solid #eeeeee;
     border-top: 0px;
     padding-top: 20px;
-    max-width: 370px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-right: 24px;
   }
   
   .content .description {
     letter-spacing: 0.06em;
     font-size: 18px;
     line-height: 2;
-    margin: 0px 0px 4px 24px;
+    
   }
   
   .content .class {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
-    margin: 0px 0px 20px 24px;
+    
   }
+  
