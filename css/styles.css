@@ -119,11 +119,9 @@
     
   }
   .link-contacts .icon{
-    display: flex;
+    
     margin-right: 10px;
     
-    
-    align-items: center;
     fill: var(--secondary-text-color);
   }
   .link-contacts:hover .icon,
