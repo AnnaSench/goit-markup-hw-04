@@ -119,10 +119,10 @@
     
   }
   .link-contacts .icon{
-    display: inline-flex;
+    display: flex;
     margin-right: 10px;
     
-    justify-content: center;
+    
     align-items: center;
     fill: var(--secondary-text-color);
   }
