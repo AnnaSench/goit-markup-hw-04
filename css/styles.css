@@ -164,6 +164,7 @@
      url(../images/bk-img.jpg);
       max-width: 1600px;
     background-size: cover;
+    background-position: 50% 50%;
     
     
   }
@@ -177,7 +178,7 @@
     line-height: 1.36;
   }
   
-  .hero a {
+  .hero-button {
     display: inline-block;
     color: #ffffff;
     background-color: var(--hover-nav-color);
